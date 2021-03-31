@@ -32,7 +32,7 @@ class OutPutServiceProvider extends ServiceProvider
     public function boot()
     {
         $this->publishes([
-            __DIR__ . '/Stubs/error.plain.stub' => app_path('/Constant/Error.php'),
+            __DIR__ . '/Stubs/error.plain.stub' => app_path('Constant/Error.php'),
         ]);
     }
 }
