@@ -33,6 +33,7 @@ class OutPutServiceProvider extends ServiceProvider
     {
         $this->publishes([
             __DIR__ . '/Stubs/error.plain.stub' => app_path('Constant/Error.php'),
+            __DIR__ . '/config/output.php' => config_path('output.php'),
         ]);
     }
 }
