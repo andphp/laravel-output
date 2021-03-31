@@ -1,0 +1,29 @@
+{
+    "name": "andphp/laravel-output",
+    "description": "dev",
+    "type": "library",
+    "require": {
+        "laravel/framework": "^8.12",
+        "andphp/postman_to_markdown": "dev-master",
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Da Xiong",
+            "email": "10000@andphp.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "AndPHP\\OutPut\\": "src/"
+        }
+    },
+    "extra": {
+      "laravel": {
+        "providers": [
+          "\\AndPHP\\OutPut\\OutPutServiceProvider"
+        ]
+      }
+    }
+}
