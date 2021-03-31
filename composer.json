@@ -4,7 +4,7 @@
     "type": "library",
     "require": {
         "laravel/framework": "^8.12",
-        "andphp/postman_to_markdown": "dev-master",
+        "andphp/postman_to_markdown": "dev-master"
     },
     "license": "MIT",
     "authors": [
