@@ -32,7 +32,7 @@ trait OutPut
      * @param string $message
      * @return $this
      */
-    public function success($data, $message = 'success')
+    public function success($data = null, $message = 'success')
     {
         return $this->outJson($data, $message, Error::SUCCESS, 200);
     }
