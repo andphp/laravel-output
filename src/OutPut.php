@@ -104,7 +104,7 @@ trait OutPut
         }
         $temp = [];
         if (is_object($arr) && count((array)$arr) > 0) {
-            $arr = (array)$arr;
+            $arr = json_decode(json_encode($arr),true);
         }
         if (is_array($arr)) {
             foreach ($arr as $key => $value) {
